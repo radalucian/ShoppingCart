@@ -1,0 +1,5 @@
+ProductId,Name,Description,Price,FinalPrice,Stock,AvailableDiscounts,Image
+1001,Nintendo Switch,Game Console,279.99,2799.9,10,0,https://lcdn.altex.ro/resize/media/catalog/product/C/o/2bd48d28d1c32adea0e55139a4e6434a/Consola-NINTENDO-Switch-Animal-Crossing-New-Horizons__3_8c928847.jpg
+1002,Legend Of Zelda,Video Game,49.99,999.8,20,0,"https://images-na.ssl-images-amazon.com/images/I/61R+rBBQxaL._SY498_BO1,204,203,200_.jpg"
+1003,IPhone XS,Mobile Phone,799.99,119998.5,150,0,https://s13emagst.akamaized.net/products/17043/17042928/images/res_8281d5af26dba025318854c94324776e.jpg
+1004,Geforce GTX 2060,GPU Card,210.99,1054.95,5,0,https://3.grgs.ro/images/products/1/8674/1728212/normal/geforce-rtx-2080-gaming-oc-8gb-gddr6-256-bit-62268fd81f63a7ee5fdaff25c8b1d570.jpg

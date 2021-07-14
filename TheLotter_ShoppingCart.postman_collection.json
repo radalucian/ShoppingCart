@@ -1,0 +1,88 @@
+{
+	"variables": [],
+	"info": {
+		"name": "TheLotter",
+		"_postman_id": "c3c1418c-0d92-7817-a95f-1a23f68e74d7",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ViewShoppingBasket",
+			"request": {
+				"url": "http://localhost:50628/api/ShoppingBasket/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "AddProductToCart",
+			"request": {
+				"url": "http://localhost:50628/api/ShoppingBasket/1/Add/1001/5",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "Metoda adauga un produs in lista de cumparaturi"
+			},
+			"response": []
+		},
+		{
+			"name": "CheckoutShoppingCart",
+			"request": {
+				"url": "http://localhost:50628/api/ShoppingBasket/1/Checkout",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": "Metoda adauga un produs in lista de cumparaturi"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteProductFromCart",
+			"request": {
+				"url": "http://localhost:50628/api/ShoppingBasket/1/Delete/1001/7",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "Metoda adauga un produs in lista de cumparaturi"
+			},
+			"response": []
+		},
+		{
+			"name": "AddProductToCartWithDiscount",
+			"request": {
+				"url": "http://localhost:50628/api/ShoppingBasket/1/Add/1002/2/2",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "Metoda adauga un produs in lista de cumparaturi"
+			},
+			"response": []
+		},
+		{
+			"name": "ViewAllProducts",
+			"request": {
+				"url": "http://localhost:50628/api/products",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ViewProduct",
+			"request": {
+				"url": "http://localhost:50628/api/products/1001",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
